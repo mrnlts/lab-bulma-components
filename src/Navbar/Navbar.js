@@ -1,5 +1,5 @@
-import 'bulma/css/bulma.css';
 import React, { Component } from 'react';
+import 'bulma/css/bulma.css';
 import './Navbar.css';
 
 class Navbar extends Component {
