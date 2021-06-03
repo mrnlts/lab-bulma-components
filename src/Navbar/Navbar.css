@@ -1,0 +1,25 @@
+.navbar-container {
+    padding: 1rem 1rem 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-to-left{
+    width: 15rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navbar-to-right{
+    width: 11rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.blue {
+    color:white;
+    background-color: rgb(122, 166, 223);
+}
