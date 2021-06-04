@@ -7,8 +7,9 @@ const CoolButton = (props) => {
     const small = (props.isSmall) ? 'is-small' : '';
     const danger = (props.isDanger) ? 'is-danger' : '';
     const success = (props.isSuccess) ? 'is-success' : '';
+    const center = (props.isCentered) ? 'is-centered' : '';
     const className = (props.className) ? props.className : '';
-    return <button class={`button ${className} ${small} ${danger} ${success}`}>{props.children}</button>;
+    return <button class={`button ${className} ${small} ${danger} ${center} ${success}`}>{props.children}</button>;
 }
 
 export default CoolButton;
